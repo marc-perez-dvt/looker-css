@@ -1,0 +1,23 @@
+/* Fila 1: Order Count - fondo blanco, texto negro */
+tr:nth-child(1) td {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Fila 2: Order Item Count - fondo gris claro, texto negro */
+tr:nth-child(2) td {
+  background-color: #f2f2f2 !important;
+  color: black !important;
+}
+
+/* Fila 3: Percent Revenue Email Source - fondo verde claro, texto negro */
+tr:nth-child(3) td {
+  background-color: #d4edda !important;
+  color: black !important;
+}
+
+/* Fila de encabezado (Created Month) - fondo azul oscuro, texto blanco */
+thead tr th {
+  background-color: #003366 !important;
+  color: white !important;
+}
